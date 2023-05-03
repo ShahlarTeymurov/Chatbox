@@ -13,10 +13,10 @@ $(document).ready(function () {
         
         let a = (a) => {
             for (let i = 1; i <=a; i++) {
-                $('.col-md-12').append(`<h1>${i}</h1>`);
+                $('.col-md-12').append(`<h2>${i}</h2>`);
             }
         }
-        a($('input').val() )
+        a($('input').val())
     });
 
     
