@@ -3,14 +3,19 @@ body {
   font-weight: 500;
 }
 
-#jsdom h2 {
-  padding-bottom: 15px;
+#jsdom {
+  padding: 60px 0;
 }
-#jsdom input {
-  padding: 5px;
-  border: 1px solid #000;
+#jsdom .chat {
+  border: 1px solid #bbb7b7;
+  border-radius: 15px;
+  background-color: #b4afaf;
+  height: 350px;
 }
-#jsdom .btn {
-  border: 1px solid #000;
-  padding: 5px;
+#jsdom .chat .message {
+  margin: 10px;
+  width: 500px;
+  height: 273px;
+  border: 1px solid #b8b1b1;
+  background-color: #837f7f;
 }/*# sourceMappingURL=style.css.map */
