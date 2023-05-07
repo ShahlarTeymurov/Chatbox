@@ -27,4 +27,11 @@ $(document).ready(function () {
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     })
 
+    $(document).on('keypress', function (e) {
+        if (e.which == 13) {
+            let url = https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+            
+        }
+    }
+
 })
