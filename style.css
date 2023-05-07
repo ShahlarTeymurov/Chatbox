@@ -42,4 +42,33 @@ body {
 #jsdom .chat .text .sent h3 {
   color: white;
   margin-left: 12px;
+}
+
+#weather {
+  padding: 30px 0;
+}
+#weather .box {
+  background-color: #6cafe6;
+  width: 222px;
+  height: 270px;
+  border-radius: 13px;
+}
+#weather .box h1, #weather .box h2 {
+  color: white;
+  font-size: 18px;
+}
+#weather .box h1 {
+  padding-top: 17px;
+  margin-bottom: 15px;
+}
+#weather .box h2 {
+  margin-bottom: 15px;
+}
+#weather .box .btn {
+  background-color: #5a98ca;
+  width: 160px;
+  border-radius: 20px;
+  padding: 4px;
+  margin-top: 5px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
