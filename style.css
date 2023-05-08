@@ -7,30 +7,29 @@ body {
   padding: 60px 0;
 }
 #jsdom .chat {
-  border: 1px solid #d7d3d3;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #d7d3d3;
-  height: 370px;
+  width: 100%;
+  padding: 2px;
 }
 #jsdom .chat .message {
   margin: 23px 23px 13px;
-  height: 271px;
-  border: 1px solid #f5f5f5;
+  padding: 4px;
+  height: 40vh;
   border-radius: 15px;
   background-color: #f5f5f5;
+  overflow: auto;
 }
 #jsdom .chat .message .line {
+  display: inline-block;
   background-color: #8c51ec;
-  width: 54px;
   padding: 8px;
   margin: 10px;
   border-radius: 14px;
-}
-#jsdom .chat .message .line h3 {
   color: white;
 }
 #jsdom .chat .text input {
-  border: 1px solid #000;
+  border: 2px solid #000;
 }
 #jsdom .chat .text .sent {
   background-color: #8c51ec;
@@ -72,3 +71,12 @@ body {
   margin-top: 5px;
   color: white;
 }/*# sourceMappingURL=style.css.map */
+
+#messageme .end {
+  text-align: end;
+}
+
+#messageyou .end {
+  text-align: end;
+}
+
