@@ -6,14 +6,12 @@ body {
 #jsdom {
   padding: 60px 0;
 }
-
 #jsdom .chat {
   border-radius: 20px;
   background-color: #b9d6f2;
   width: 100%;
   padding: 25px;
 }
-
 #jsdom .chat .message {
   padding: 4px;
   height: 40vh;
@@ -38,25 +36,21 @@ body {
   border-radius: 14px;
   color: white;
 }
-
 #jsdom .chat .text {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-
 #jsdom .chat .text input {
   margin-right: 10px;
   border: 2px solid #000;
 }
-
 #jsdom .chat .text .sent {
   background-color: #4a6fa5;
   padding: 8px 25px;
   border-radius: 14px;
   cursor: pointer;
 }
-
 #jsdom .chat .text .sent h3 {
   color: white;
   cursor: pointer;
@@ -65,29 +59,23 @@ body {
 #weather {
   padding: 30px 0;
 }
-
 #weather .box {
   background-color: #6cafe6;
   width: 222px;
   height: 270px;
   border-radius: 13px;
 }
-
-#weather .box h1,
-#weather .box h2 {
+#weather .box h1, #weather .box h2 {
   color: white;
   font-size: 18px;
 }
-
 #weather .box h1 {
   padding-top: 17px;
   margin-bottom: 15px;
 }
-
 #weather .box h2 {
   margin-bottom: 15px;
 }
-
 #weather .box .btn {
   background-color: #5a98ca;
   width: 160px;
@@ -95,6 +83,4 @@ body {
   padding: 4px;
   margin-top: 5px;
   color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
