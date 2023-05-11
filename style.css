@@ -84,4 +84,11 @@ body {
   padding: 4px;
   margin-top: 5px;
   color: white;
+}
+@media screen and (max-width: 992px) {
+  #weather .box {
+    width: 220px;
+    position: absolute;
+    left: 39%;
+  }
 }/*# sourceMappingURL=style.css.map */
