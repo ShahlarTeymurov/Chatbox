@@ -52,6 +52,11 @@ body {
   color: white;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  #jsdom .chat {
+    margin-bottom: 20px;
+  }
+}
 
 #weather {
   padding: 30px 0;
